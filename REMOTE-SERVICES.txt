@@ -1,0 +1,22 @@
+REMOTE SERVICES — Zeko Love
+===========================
+
+Zeko Love performs no server-side outbound HTTP requests. The only external
+service is client-side video embedding for intro videos.
+
+-------------------------------------------------------------------------------
+1. YouTube / Vimeo intro-video embeds (client-side)
+-------------------------------------------------------------------------------
+Hosts rendered (browser loads the iframe):
+   - https://www.youtube.com/embed/<id>        (from youtube.com/watch?v= or
+     youtu.be/ URLs — includes/calls/class-zeko-love-calls.php lines 419-427)
+   - https://player.vimeo.com/video/<id>       (from vimeo.com/<id> URLs —
+     lines 430-435)
+Data sent: when a visitor plays the intro video the provider receives the
+           embed request, the visitor's IP address, and interaction data per
+           YouTube/Vimeo's own policies. No profile, email, or account data is
+           sent by Zeko Love.
+When     : only when a listing author saves a YouTube/Vimeo intro URL and a
+           visitor opens that listing.
+
+No other outbound requests are made by Zeko Love.

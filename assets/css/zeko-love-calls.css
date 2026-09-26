@@ -1,0 +1,636 @@
+/* Zeko Love — Calls & Availability */
+
+.zl-calls-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.zl-wallet-pill {
+    background: var(--zlove-primary-light, #fce7f3);
+    color: var(--zlove-primary-dark, #be185d);
+    font-size: 13px;
+    font-weight: 600;
+    padding: 6px 14px;
+    border-radius: 20px;
+}
+
+.zl-calls-tabs .zl-tab,
+.zl-subtabs .zl-tab {
+    background: var(--zlove-gray-100, #f3f4f6);
+    color: var(--zlove-gray-700, #374151);
+    border: 1px solid var(--zlove-gray-200, #e5e7eb);
+}
+
+.zl-calls-panel {
+    margin-top: 18px;
+}
+
+.zl-explore-toolbar {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 18px;
+}
+
+.zl-explore-toolbar .zl-input {
+    flex: 1;
+    min-width: 140px;
+}
+
+.zl-explore-results .zl-loading,
+.zl-my-listings .zl-loading,
+.zl-bookings-panel .zl-loading,
+.zl-tx-list .zl-loading {
+    text-align: center;
+    color: var(--zlove-gray-500, #6b7280);
+    padding: 32px 0;
+}
+
+.zl-calls-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 16px;
+}
+
+.zl-calls-strip {
+    margin: 24px 0;
+}
+
+.zl-calls-strip-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.zl-calls-strip-head h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.zl-calls-strip-head a {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--zlove-primary, #ec4899);
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.zl-calls-strip-track {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    padding-bottom: 8px;
+    scroll-snap-type: x proximity;
+}
+
+.zl-calls-strip-track .zl-call-card {
+    flex: 0 0 240px;
+    scroll-snap-align: start;
+}
+
+.zl-call-card {
+    border: 1px solid var(--zlove-gray-200, #e5e7eb);
+    border-radius: var(--zlove-radius, 10px);
+    overflow: hidden;
+    background: var(--zlove-gray-50, #f9fafb);
+    transition: box-shadow var(--zlove-transition, 0.2s ease), transform var(--zlove-transition, 0.2s ease);
+}
+
+.zl-call-card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    transform: translateY(-2px);
+}
+
+.zl-call-card-media {
+    position: relative;
+    display: block;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+}
+
+.zl-call-card-photo,
+.zl-detail-photo .zl-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.zl-call-type-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(17, 24, 39, 0.7);
+    color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 20px;
+}
+
+.zl-love-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: linear-gradient(135deg, var(--zlove-primary, #ec4899), var(--zlove-secondary, #8b5cf6));
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.zl-call-card-body {
+    padding: 12px 14px;
+}
+
+.zl-call-card-body h3 {
+    margin: 0 0 8px;
+    font-size: 15px;
+}
+
+.zl-call-card-body h3 a {
+    color: var(--zlove-gray-900, #111827);
+    text-decoration: none;
+}
+
+.zl-call-card-seller {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: var(--zlove-gray-700, #374151);
+}
+
+.zl-call-card-seller img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.zl-call-rating {
+    color: var(--zlove-gray-500, #6b7280);
+    font-size: 12px;
+}
+
+.zl-call-card-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 12px;
+    color: var(--zlove-gray-500, #6b7280);
+}
+
+.zl-call-price {
+    color: var(--zlove-primary-dark, #be185d);
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.zl-pagination {
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.zl-pagination .zl-btn.active {
+    background: var(--zlove-primary, #ec4899);
+    color: #fff;
+}
+
+/* Listing detail */
+.zl-listing-detail {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.zl-back-link {
+    display: inline-block;
+    margin-bottom: 14px;
+    color: var(--zlove-gray-500, #6b7280);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.zl-detail-layout {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 22px;
+}
+
+@media (max-width: 720px) {
+    .zl-detail-layout { grid-template-columns: 1fr; }
+}
+
+.zl-detail-photo {
+    position: relative;
+    aspect-ratio: 1 / 1;
+    border-radius: var(--zlove-radius, 10px);
+    overflow: hidden;
+}
+
+.zl-badge-score {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: var(--zlove-primary, #ec4899);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 20px;
+}
+
+.zl-detail-info h2 {
+    margin: 0 0 10px;
+    font-size: 22px;
+}
+
+.zl-listing-seller {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 14px;
+    font-weight: 600;
+}
+
+.zl-listing-seller img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.zl-card-meta-row {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 13px;
+    color: var(--zlove-gray-500, #6b7280);
+    margin-bottom: 12px;
+}
+
+.zl-goal {
+    background: var(--zlove-gray-100, #f3f4f6);
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+
+.zl-detail-bio {
+    color: var(--zlove-gray-700, #374151);
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.zl-listing-video iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: var(--zlove-radius, 10px);
+    border: 0;
+    margin-top: 12px;
+}
+
+.zl-listing-intro {
+    width: 100%;
+    max-height: 300px;
+    border-radius: var(--zlove-radius, 10px);
+    margin-top: 12px;
+}
+
+.zl-listing-booking,
+.zl-listing-reviews {
+    border-top: 1px solid var(--zlove-gray-100, #f3f4f6);
+    margin-top: 20px;
+    padding-top: 18px;
+}
+
+.zl-booking-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: flex-end;
+}
+
+.zl-booking-form .zl-field {
+    flex: 1;
+    min-width: 160px;
+}
+
+.zl-booking-total {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--zlove-primary-dark, #be185d);
+    margin: 6px 0 0;
+    width: 100%;
+}
+
+.zl-booking-note {
+    font-size: 12px;
+    color: var(--zlove-gray-500, #6b7280);
+    margin: 8px 0 0;
+    width: 100%;
+}
+
+.zl-review-item {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--zlove-gray-100, #f3f4f6);
+    font-size: 14px;
+}
+
+.zl-review-stars {
+    color: #f59e0b;
+}
+
+/* My listings */
+.zl-my-listings-toolbar {
+    margin-bottom: 16px;
+}
+
+.zl-my-listing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    flex-wrap: wrap;
+    border: 1px solid var(--zlove-gray-200, #e5e7eb);
+    border-radius: var(--zlove-radius, 10px);
+    padding: 14px 16px;
+    margin-bottom: 12px;
+    background: var(--zlove-gray-50, #f9fafb);
+}
+
+.zl-my-listing h4 {
+    margin: 0 0 6px;
+    font-size: 15px;
+}
+
+.zl-my-listing-meta {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    font-size: 12px;
+    color: var(--zlove-gray-500, #6b7280);
+}
+
+.zl-status {
+    font-size: 11px;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.zl-status-active { background: #d1fae5; color: #065f46; }
+.zl-status-draft { background: var(--zlove-gray-200, #e5e7eb); color: var(--zlove-gray-700, #374151); }
+.zl-status-paused { background: #fef3c7; color: #92400e; }
+.zl-status-expired { background: #fee2e2; color: #991b1b; }
+.zl-status-pending { background: #fef3c7; color: #92400e; }
+.zl-status-confirmed { background: #dbeafe; color: #1e40af; }
+.zl-status-completed { background: #d1fae5; color: #065f46; }
+.zl-status-cancelled { background: #fee2e2; color: #991b1b; }
+
+.zl-my-listing-actions {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+/* Bookings */
+.zl-booking-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    flex-wrap: wrap;
+    border: 1px solid var(--zlove-gray-200, #e5e7eb);
+    border-radius: var(--zlove-radius, 10px);
+    padding: 14px 16px;
+    margin-bottom: 12px;
+}
+
+.zl-booking-row h4 {
+    margin: 0 0 6px;
+    font-size: 15px;
+}
+
+.zl-booking-meta {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    font-size: 12px;
+    color: var(--zlove-gray-500, #6b7280);
+}
+
+.zl-booking-hint {
+    margin-top: 8px;
+    font-size: 13px;
+    color: var(--zlove-gray-700, #374151);
+    background: var(--zlove-gray-100, #f3f4f6);
+    border-left: 3px solid var(--zlove-primary, #ec4899);
+    padding: 6px 12px;
+    border-radius: 0 var(--zlove-radius, 10px) var(--zlove-radius, 10px) 0;
+}
+
+.zl-booking-actions {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+/* Earnings */
+.zl-earnings-summary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 14px;
+    margin-bottom: 20px;
+}
+
+.zl-earnings-balance,
+.zl-earning-stat {
+    background: var(--zlove-gray-50, #f9fafb);
+    border: 1px solid var(--zlove-gray-200, #e5e7eb);
+    border-radius: var(--zlove-radius, 10px);
+    padding: 16px;
+}
+
+.zl-earnings-balance span,
+.zl-earning-stat span {
+    display: block;
+    font-size: 12px;
+    color: var(--zlove-gray-500, #6b7280);
+    margin-bottom: 6px;
+}
+
+.zl-earnings-balance strong {
+    font-size: 22px;
+    color: var(--zlove-primary-dark, #be185d);
+}
+
+.zl-earning-stat strong {
+    font-size: 20px;
+}
+
+.zl-tx-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--zlove-gray-100, #f3f4f6);
+    font-size: 14px;
+}
+
+.zl-tx-label { flex: 1; }
+.zl-tx-date { color: var(--zlove-gray-500, #6b7280); font-size: 12px; }
+.zl-tx-in { color: #059669; font-weight: 700; }
+.zl-tx-out { color: #dc2626; font-weight: 700; }
+
+/* Forms */
+.zl-form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+@media (max-width: 640px) {
+    .zl-form-grid { grid-template-columns: 1fr; }
+}
+
+.zl-field-wide { grid-column: 1 / -1; }
+
+.zl-slots-title {
+    margin: 18px 0 10px;
+    font-size: 14px;
+}
+
+.zl-slot-row {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.zl-slot-row .zl-input { flex: 1; }
+
+/* Modals */
+.zl-listing-form-wrap,
+.zl-plan-modal-wrap,
+.zl-review-modal-wrap {
+    position: fixed;
+    inset: 0;
+    background: rgba(17, 24, 39, 0.6);
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.zl-listing-form,
+.zl-plan-modal,
+.zl-review-modal {
+    background: #fff;
+    border-radius: 14px;
+    padding: 24px;
+    width: 100%;
+    max-width: 640px;
+    max-height: 90vh;
+    overflow: auto;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+}
+
+.zl-plan-modal { max-width: 520px; }
+
+.zl-modal-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-top: 18px;
+}
+
+.zl-plan-note {
+    font-size: 13px;
+    color: var(--zlove-gray-500, #6b7280);
+}
+
+.zl-plan-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 14px;
+}
+
+.zl-plan-card {
+    border: 1px solid var(--zlove-gray-200, #e5e7eb);
+    border-radius: var(--zlove-radius, 10px);
+    padding: 14px;
+    text-align: center;
+}
+
+.zl-plan-card h4 { margin: 0 0 6px; font-size: 14px; }
+.zl-plan-price { font-size: 20px; font-weight: 700; color: var(--zlove-primary-dark, #be185d); }
+.zl-plan-meta { font-size: 12px; color: var(--zlove-gray-500, #6b7280); margin: 4px 0; }
+.zl-plan-features { font-size: 12px; color: var(--zlove-gray-500, #6b7280); }
+
+.zl-plan-card .zl-buy-plan-btn { margin-top: 10px; }
+
+.zl-star-picker {
+    display: flex;
+    gap: 4px;
+}
+
+.zl-star {
+    background: none;
+    border: 0;
+    font-size: 26px;
+    color: var(--zlove-gray-300, #d1d5db);
+    cursor: pointer;
+    padding: 0;
+}
+
+.zl-star.active {
+    color: #f59e0b;
+}
+
+.zl-btn-danger {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.zl-btn-danger:hover {
+    background: #fecaca;
+}
+
+/* ─── Dark Mode ──────────────────────────────────────────────── */
+[data-theme="dark"] .zl-wallet-pill {
+    background: var(--zlove-primary-light);
+    color: var(--zlove-primary);
+}
+
+[data-theme="dark"] .zl-calls-tabs .zl-tab,
+[data-theme="dark"] .zl-subtabs .zl-tab {
+    background: var(--zlove-gray-200);
+    border-color: var(--zlove-gray-300);
+    color: var(--zlove-gray-500);
+}
+
+[data-theme="dark"] .zl-call-card,
+[data-theme="dark"] .zl-schedule-card,
+[data-theme="dark"] .zl-availability-slot {
+    background: var(--zlove-gray-100);
+    border-color: var(--zlove-gray-200);
+}
+
+[data-theme="dark"] .zl-btn-danger {
+    background: rgba(239, 68, 68, 0.15);
+    color: #fca5a5;
+}
+
+[data-theme="dark"] .zl-btn-danger:hover {
+    background: rgba(239, 68, 68, 0.25);
+}
