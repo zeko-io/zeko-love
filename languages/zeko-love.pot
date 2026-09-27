@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zeko-love 1.4.1\n"
 "Report-Msgid-Bugs-To: https://zeko.io\n"
-"POT-Creation-Date: 2026-09-25 08:10+00:00\n"
+"POT-Creation-Date: 2026-09-27 15:06+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -155,7 +155,7 @@ msgstr ""
 msgid "%s super liked your profile"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:677
+#: includes/admin/class-zeko-love-admin.php:682
 msgid "0 = unlimited."
 msgstr ""
 
@@ -171,7 +171,7 @@ msgstr ""
 msgid "Accept"
 msgstr ""
 
-#: templates/dating-settings.php:307
+#: templates/dating-settings.php:311
 msgid "Account"
 msgstr ""
 
@@ -183,9 +183,9 @@ msgstr ""
 msgid "Account Number / IBAN"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:302
-#: includes/admin/class-zeko-love-admin.php:410
-#: includes/admin/class-zeko-love-admin.php:633
+#: includes/admin/class-zeko-love-admin.php:307
+#: includes/admin/class-zeko-love-admin.php:415
+#: includes/admin/class-zeko-love-admin.php:638
 msgid "Actions"
 msgstr ""
 
@@ -193,12 +193,12 @@ msgstr ""
 msgid "Activate"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:643
-#: includes/admin/class-zeko-love-admin.php:689
+#: includes/admin/class-zeko-love-admin.php:648
+#: includes/admin/class-zeko-love-admin.php:694
 msgid "Active"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:577
+#: includes/admin/class-zeko-love-admin.php:582
 msgid "Active Listings"
 msgstr ""
 
@@ -206,7 +206,7 @@ msgstr ""
 msgid "Active Today"
 msgstr ""
 
-#: includes/public/class-zeko-love-public.php:653
+#: includes/public/class-zeko-love-public.php:654
 msgid "Active recently"
 msgstr ""
 
@@ -214,8 +214,8 @@ msgstr ""
 msgid "Activity Feed"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:654
-#: includes/admin/class-zeko-love-admin.php:693
+#: includes/admin/class-zeko-love-admin.php:659
+#: includes/admin/class-zeko-love-admin.php:698
 msgid "Add plan"
 msgstr ""
 
@@ -235,7 +235,7 @@ msgstr ""
 msgid "All call types"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:479
+#: includes/admin/class-zeko-love-admin.php:484
 msgid "Allow public REST API access to dating profiles"
 msgstr ""
 
@@ -255,7 +255,7 @@ msgstr ""
 msgid "Appearance & Lifestyle"
 msgstr ""
 
-#: templates/dating-settings.php:314
+#: templates/dating-settings.php:318
 msgid ""
 "Are you sure you want to delete your dating profile? This action cannot be "
 "undone."
@@ -285,7 +285,7 @@ msgstr ""
 msgid "Awaiting confirmation"
 msgstr ""
 
-#: includes/public/class-zeko-love-public.php:516
+#: includes/public/class-zeko-love-public.php:517
 msgid "Back to Browse"
 msgstr ""
 
@@ -326,11 +326,11 @@ msgstr ""
 msgid "Book a call"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:585
+#: includes/admin/class-zeko-love-admin.php:590
 msgid "Booked Value"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:608
+#: includes/admin/class-zeko-love-admin.php:613
 msgid "Booking Window (days)"
 msgstr ""
 
@@ -355,15 +355,15 @@ msgstr ""
 msgid "Booking not found."
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:581 templates/dating-calls.php:35
+#: includes/admin/class-zeko-love-admin.php:586 templates/dating-calls.php:35
 msgid "Bookings"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:504
+#: includes/admin/class-zeko-love-admin.php:509
 msgid "Boost Duration (hours)"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:497
+#: includes/admin/class-zeko-love-admin.php:502
 msgid "Boost Price"
 msgstr ""
 
@@ -390,7 +390,7 @@ msgstr ""
 msgid "Browse template not found."
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:604
+#: includes/admin/class-zeko-love-admin.php:609
 msgid ""
 "Buyers can cancel without penalty up to this many hours before the call."
 msgstr ""
@@ -433,7 +433,7 @@ msgid "Call type"
 msgstr ""
 
 #. translators: %s: formatted price per minute
-#: includes/public/class-zeko-love-public.php:602
+#: includes/public/class-zeko-love-public.php:603
 #, php-format
 msgid "Call — %s/min"
 msgstr ""
@@ -448,11 +448,11 @@ msgid "Calls"
 msgstr ""
 
 #: includes/admin/class-zeko-love-admin.php:131 templates/dating-calls.php:26
-#: zeko-love.php:221
+#: zeko-love.php:222
 msgid "Calls & Availability"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:531
+#: includes/admin/class-zeko-love-admin.php:536
 msgid "Calls settings saved."
 msgstr ""
 
@@ -497,7 +497,7 @@ msgstr ""
 msgid "Cannot message this user."
 msgstr ""
 
-#: includes/public/class-zeko-love-public.php:670
+#: includes/public/class-zeko-love-public.php:671
 #: templates/dating-browse.php:102 templates/partials/profile-fields.php:67
 msgid "Casual"
 msgstr ""
@@ -506,7 +506,7 @@ msgstr ""
 msgid "Choose a plan to go live"
 msgstr ""
 
-#: zeko-love.php:325
+#: zeko-love.php:328
 msgid "Coffee or tea — and what is your go-to order?"
 msgstr ""
 
@@ -588,7 +588,7 @@ msgstr ""
 msgid "Crypto"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:614
+#: includes/admin/class-zeko-love-admin.php:619
 msgid "Currency"
 msgstr ""
 
@@ -605,12 +605,12 @@ msgstr ""
 msgid "Dashboard"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:730
-#: includes/admin/class-zeko-love-admin.php:778
+#: includes/admin/class-zeko-love-admin.php:735
+#: includes/admin/class-zeko-love-admin.php:783
 msgid "Database error."
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:409
+#: includes/admin/class-zeko-love-admin.php:414
 #: includes/calls/class-zeko-love-calls.php:401
 #: includes/public/class-zeko-love-public.php:103
 #: templates/dating-settings.php:186
@@ -668,7 +668,7 @@ msgid "Date:"
 msgstr ""
 
 #: includes/class-zeko-love-ecosystem.php:374 includes/class-zeko-love.php:316
-#: zeko-love.php:213
+#: zeko-love.php:214
 msgid "Dates"
 msgstr ""
 
@@ -681,7 +681,7 @@ msgstr ""
 msgid "Dating"
 msgstr ""
 
-#: templates/dating-settings.php:49 zeko-love.php:217
+#: templates/dating-settings.php:49 zeko-love.php:218
 msgid "Dating Settings"
 msgstr ""
 
@@ -689,7 +689,7 @@ msgstr ""
 msgid "Dating messages"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:630
+#: includes/admin/class-zeko-love-admin.php:635
 msgid "Days"
 msgstr ""
 
@@ -697,17 +697,17 @@ msgstr ""
 msgid "Decline"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:484
+#: includes/admin/class-zeko-love-admin.php:489
 msgid "Default Distance Radius (km)"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:647
+#: includes/admin/class-zeko-love-admin.php:652
 #: includes/calls/class-zeko-love-calls-ajax.php:503
 #: templates/partials/profile-fields.php:276
 msgid "Delete"
 msgstr ""
 
-#: templates/dating-settings.php:315
+#: templates/dating-settings.php:319
 msgid "Delete my dating profile"
 msgstr ""
 
@@ -715,7 +715,7 @@ msgstr ""
 msgid "Delete this listing? This cannot be undone."
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:647
+#: includes/admin/class-zeko-love-admin.php:652
 msgid "Delete this plan?"
 msgstr ""
 
@@ -723,7 +723,7 @@ msgstr ""
 msgid "Description"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:243
+#: includes/admin/class-zeko-love-admin.php:246
 #: templates/partials/profile-fields.php:104
 msgid "Display Name"
 msgstr ""
@@ -745,7 +745,7 @@ msgstr ""
 msgid "Drinking"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:670
+#: includes/admin/class-zeko-love-admin.php:675
 msgid "Duration (days)"
 msgstr ""
 
@@ -765,7 +765,7 @@ msgstr ""
 msgid "Earnings"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:645
+#: includes/admin/class-zeko-love-admin.php:650
 #: includes/calls/class-zeko-love-calls-ajax.php:501
 msgid "Edit"
 msgstr ""
@@ -774,7 +774,7 @@ msgstr ""
 msgid "Edit listing"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:654
+#: includes/admin/class-zeko-love-admin.php:659
 msgid "Edit plan"
 msgstr ""
 
@@ -787,7 +787,7 @@ msgstr ""
 msgid "Education"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:244
+#: includes/admin/class-zeko-love-admin.php:247
 msgid "Email"
 msgstr ""
 
@@ -795,7 +795,7 @@ msgstr ""
 msgid "Email me a code"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:475
+#: includes/admin/class-zeko-love-admin.php:480
 msgid "Enable Public API"
 msgstr ""
 
@@ -804,8 +804,8 @@ msgstr ""
 msgid "Enter a valid amount."
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:343
-#: includes/admin/class-zeko-love-admin.php:364
+#: includes/admin/class-zeko-love-admin.php:348
+#: includes/admin/class-zeko-love-admin.php:369
 msgid "Error"
 msgstr ""
 
@@ -830,7 +830,7 @@ msgstr ""
 msgid "Fashion"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:685
+#: includes/admin/class-zeko-love-admin.php:690
 msgid "Features (one per line)"
 msgstr ""
 
@@ -842,7 +842,7 @@ msgstr ""
 msgid "File too large. Maximum 5MB."
 msgstr ""
 
-#: templates/dating-browse.php:53 zeko-love.php:197
+#: templates/dating-browse.php:53 zeko-love.php:198
 msgid "Find Matches"
 msgstr ""
 
@@ -854,11 +854,11 @@ msgstr ""
 msgid "Fitness"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:316
+#: includes/admin/class-zeko-love-admin.php:321
 msgid "Flag"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:362
+#: includes/admin/class-zeko-love-admin.php:367
 msgid "Flagged"
 msgstr ""
 
@@ -866,7 +866,7 @@ msgstr ""
 msgid "Food"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:601
+#: includes/admin/class-zeko-love-admin.php:606
 msgid "Free Cancel Window (hours)"
 msgstr ""
 
@@ -875,7 +875,7 @@ msgid "Friends"
 msgstr ""
 
 #: includes/class-zeko-love-ecosystem.php:250
-#: includes/public/class-zeko-love-public.php:674
+#: includes/public/class-zeko-love-public.php:675
 #: templates/dating-browse.php:105 templates/partials/profile-fields.php:70
 msgid "Friendship"
 msgstr ""
@@ -884,7 +884,7 @@ msgstr ""
 msgid "Gaming"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:245
+#: includes/admin/class-zeko-love-admin.php:248
 #: includes/privacy/class-zeko-love-privacy.php:104
 #: templates/partials/profile-fields.php:131
 msgid "Gender"
@@ -937,15 +937,15 @@ msgstr ""
 msgid "Hi %1$s, your call with %2$s is coming up soon."
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:507
+#: includes/admin/class-zeko-love-admin.php:512
 msgid "How long a boosted profile appears at the top of search results."
 msgstr ""
 
-#: zeko-love.php:323
+#: zeko-love.php:326
 msgid "If you could travel anywhere tomorrow, where would you go?"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:643
+#: includes/admin/class-zeko-love-admin.php:648
 msgid "Inactive"
 msgstr ""
 
@@ -961,7 +961,7 @@ msgstr ""
 msgid "Interested in"
 msgstr ""
 
-#: includes/public/class-zeko-love-public.php:552
+#: includes/public/class-zeko-love-public.php:553
 #: templates/partials/profile-fields.php:233
 msgid "Interests"
 msgstr ""
@@ -1007,8 +1007,8 @@ msgstr ""
 msgid "Invalid payout method."
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:711
-#: includes/admin/class-zeko-love-admin.php:762
+#: includes/admin/class-zeko-love-admin.php:716
+#: includes/admin/class-zeko-love-admin.php:767
 msgid "Invalid photo ID."
 msgstr ""
 
@@ -1021,7 +1021,7 @@ msgstr ""
 msgid "Invalid status."
 msgstr ""
 
-#: includes/class-zeko-love-matching.php:339
+#: includes/class-zeko-love-matching.php:348
 msgid "Invalid user IDs."
 msgstr ""
 
@@ -1069,7 +1069,7 @@ msgstr ""
 msgid "Just now"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:248
+#: includes/admin/class-zeko-love-admin.php:251
 msgid "Last Active"
 msgstr ""
 
@@ -1082,8 +1082,8 @@ msgid "Leave review"
 msgstr ""
 
 #: includes/public/class-zeko-love-ajax.php:869
-#: includes/public/class-zeko-love-public.php:429
-#: includes/public/class-zeko-love-public.php:610
+#: includes/public/class-zeko-love-public.php:430
+#: includes/public/class-zeko-love-public.php:611
 msgid "Like"
 msgstr ""
 
@@ -1160,8 +1160,8 @@ msgstr ""
 msgid "Location:"
 msgstr ""
 
-#: includes/public/class-zeko-love-public.php:671
 #: includes/public/class-zeko-love-public.php:672
+#: includes/public/class-zeko-love-public.php:673
 #: templates/dating-browse.php:103 templates/partials/profile-fields.php:68
 msgid "Long-term"
 msgstr ""
@@ -1198,7 +1198,7 @@ msgstr ""
 msgid "Mark completed"
 msgstr ""
 
-#: includes/public/class-zeko-love-public.php:673
+#: includes/public/class-zeko-love-public.php:674
 #: templates/dating-browse.php:104 templates/partials/profile-fields.php:69
 msgid "Marriage"
 msgstr ""
@@ -1225,7 +1225,7 @@ msgstr ""
 msgid "Matches template not found."
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:631
+#: includes/admin/class-zeko-love-admin.php:636
 msgid "Max Usage (min)"
 msgstr ""
 
@@ -1237,11 +1237,11 @@ msgstr ""
 msgid "Max duration (min)"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:681
+#: includes/admin/class-zeko-love-admin.php:686
 msgid "Max listings"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:674
+#: includes/admin/class-zeko-love-admin.php:679
 msgid "Max usage (minutes)"
 msgstr ""
 
@@ -1253,7 +1253,7 @@ msgstr ""
 #: includes/calls/class-zeko-love-calls-ajax.php:764
 #: includes/calls/class-zeko-love-calls.php:354
 #: includes/class-zeko-love-ecosystem.php:289
-#: includes/public/class-zeko-love-public.php:573
+#: includes/public/class-zeko-love-public.php:574
 msgid "Message"
 msgstr ""
 
@@ -1267,7 +1267,7 @@ msgstr ""
 
 #: includes/class-zeko-love-ecosystem.php:365 includes/class-zeko-love.php:227
 #: includes/class-zeko-love.php:315 templates/dating-messages.php:29
-#: zeko-love.php:209
+#: zeko-love.php:210
 msgid "Messages"
 msgstr ""
 
@@ -1324,7 +1324,7 @@ msgid "Music"
 msgstr ""
 
 #. translators: %s: comma-separated list of mutual interests
-#: includes/public/class-zeko-love-public.php:564
+#: includes/public/class-zeko-love-public.php:565
 #, php-format
 msgid "Mutual interest: %s"
 msgstr ""
@@ -1333,7 +1333,7 @@ msgstr ""
 msgid "My Dates"
 msgstr ""
 
-#: templates/dating-profile.php:18 zeko-love.php:201
+#: templates/dating-profile.php:18 zeko-love.php:202
 msgid "My Dating Profile"
 msgstr ""
 
@@ -1342,12 +1342,12 @@ msgid "My Listings"
 msgstr ""
 
 #: includes/class-zeko-love.php:314 templates/dating-matches.php:16
-#: zeko-love.php:205
+#: zeko-love.php:206
 msgid "My Matches"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:628
-#: includes/admin/class-zeko-love-admin.php:662 templates/dating-browse.php:62
+#: includes/admin/class-zeko-love-admin.php:633
+#: includes/admin/class-zeko-love-admin.php:667 templates/dating-browse.php:62
 msgid "Name"
 msgstr ""
 
@@ -1385,7 +1385,7 @@ msgstr ""
 msgid "Newest"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:257
+#: includes/admin/class-zeko-love-admin.php:261
 #: templates/partials/profile-fields.php:40
 #: templates/partials/profile-fields.php:47
 msgid "No"
@@ -1439,16 +1439,16 @@ msgstr ""
 msgid "No notifications yet."
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:322
+#: includes/admin/class-zeko-love-admin.php:327
 msgid "No pending photos."
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:263
+#: includes/admin/class-zeko-love-admin.php:268
 #: includes/public/class-zeko-love-public.php:339
 msgid "No profiles found."
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:434
+#: includes/admin/class-zeko-love-admin.php:439
 msgid "No reports found."
 msgstr ""
 
@@ -1481,7 +1481,7 @@ msgstr ""
 msgid "Non-smoker"
 msgstr ""
 
-#: includes/public/class-zeko-love-public.php:675
+#: includes/public/class-zeko-love-public.php:676
 #: templates/dating-browse.php:106 templates/partials/profile-fields.php:71
 msgid "Not sure"
 msgstr ""
@@ -1517,9 +1517,9 @@ msgstr ""
 
 #: includes/class-zeko-love-ecosystem.php:512
 #: includes/class-zeko-love-ecosystem.php:527
-#: includes/public/class-zeko-love-public.php:631
-#: includes/public/class-zeko-love-public.php:639
-#: includes/public/class-zeko-love-public.php:659
+#: includes/public/class-zeko-love-public.php:632
+#: includes/public/class-zeko-love-public.php:640
+#: includes/public/class-zeko-love-public.php:660
 msgid "Offline"
 msgstr ""
 
@@ -1528,7 +1528,7 @@ msgid "Online"
 msgstr ""
 
 #: includes/public/class-zeko-love-ajax.php:1073
-#: includes/public/class-zeko-love-public.php:647
+#: includes/public/class-zeko-love-public.php:648
 msgid "Online now"
 msgstr ""
 
@@ -1548,8 +1548,8 @@ msgstr ""
 msgid "Outdoors"
 msgstr ""
 
-#: includes/public/class-zeko-love-public.php:426
-#: includes/public/class-zeko-love-public.php:607
+#: includes/public/class-zeko-love-public.php:427
+#: includes/public/class-zeko-love-public.php:608
 msgid "Pass"
 msgstr ""
 
@@ -1641,7 +1641,7 @@ msgstr ""
 msgid "Pending Photo Verifications"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:299
+#: includes/admin/class-zeko-love-admin.php:304
 msgid "Photo"
 msgstr ""
 
@@ -1653,7 +1653,7 @@ msgstr ""
 msgid "Photo deleted."
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:781
+#: includes/admin/class-zeko-love-admin.php:786
 msgid "Photo flagged."
 msgstr ""
 
@@ -1661,7 +1661,7 @@ msgstr ""
 msgid "Photo uploaded."
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:745
+#: includes/admin/class-zeko-love-admin.php:750
 msgid "Photo verified."
 msgstr ""
 
@@ -1671,7 +1671,7 @@ msgstr ""
 
 #: includes/admin/class-zeko-love-admin.php:104
 #: includes/admin/class-zeko-love-admin.php:105
-#: includes/admin/class-zeko-love-admin.php:247
+#: includes/admin/class-zeko-love-admin.php:250
 #: templates/partials/profile-fields.php:253
 msgid "Photos"
 msgstr ""
@@ -1684,11 +1684,11 @@ msgstr ""
 msgid "Plan activated! Your listing is now live."
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:552
+#: includes/admin/class-zeko-love-admin.php:557
 msgid "Plan deleted."
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:547
+#: includes/admin/class-zeko-love-admin.php:552
 msgid "Plan saved."
 msgstr ""
 
@@ -1702,7 +1702,7 @@ msgstr ""
 msgid "Platform"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:594
+#: includes/admin/class-zeko-love-admin.php:599
 msgid "Platform Commission (%)"
 msgstr ""
 
@@ -1811,8 +1811,8 @@ msgstr ""
 msgid "Premium"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:629
-#: includes/admin/class-zeko-love-admin.php:666
+#: includes/admin/class-zeko-love-admin.php:634
+#: includes/admin/class-zeko-love-admin.php:671
 msgid "Price"
 msgstr ""
 
@@ -1895,11 +1895,11 @@ msgstr ""
 msgid "Reading"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:408
+#: includes/admin/class-zeko-love-admin.php:413
 msgid "Reason"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:352
+#: includes/admin/class-zeko-love-admin.php:357
 msgid "Reason for flagging:"
 msgstr ""
 
@@ -1933,11 +1933,11 @@ msgstr ""
 msgid "Religion"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:406
+#: includes/admin/class-zeko-love-admin.php:411
 msgid "Reported User"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:405
+#: includes/admin/class-zeko-love-admin.php:410
 msgid "Reporter"
 msgstr ""
 
@@ -1958,7 +1958,7 @@ msgstr ""
 msgid "Response recorded."
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:429
+#: includes/admin/class-zeko-love-admin.php:434
 msgid "Review"
 msgstr ""
 
@@ -1998,7 +1998,7 @@ msgstr ""
 msgid "Save listing"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:620
+#: includes/admin/class-zeko-love-admin.php:625
 msgid "Save settings"
 msgstr ""
 
@@ -2015,7 +2015,7 @@ msgid "Search listings…"
 msgstr ""
 
 #: includes/calls/class-zeko-love-calls-ajax.php:71
-#: includes/class-zeko-love-matching.php:331
+#: includes/class-zeko-love-matching.php:340
 #: includes/public/class-zeko-love-ajax.php:100
 msgid "Security check failed."
 msgstr ""
@@ -2043,7 +2043,7 @@ msgstr ""
 msgid "Send"
 msgstr ""
 
-#: includes/public/class-zeko-love-public.php:578
+#: includes/public/class-zeko-love-public.php:579
 msgid "Send Gift"
 msgstr ""
 
@@ -2065,12 +2065,12 @@ msgstr ""
 
 #: includes/admin/class-zeko-love-admin.php:122
 #: includes/admin/class-zeko-love-admin.php:123
-#: includes/admin/class-zeko-love-admin.php:589
+#: includes/admin/class-zeko-love-admin.php:594
 #: includes/class-zeko-love-ecosystem.php:392 includes/class-zeko-love.php:318
 msgid "Settings"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:455
+#: includes/admin/class-zeko-love-admin.php:460
 #: includes/public/class-zeko-love-ajax.php:1669
 msgid "Settings saved."
 msgstr ""
@@ -2079,7 +2079,7 @@ msgstr ""
 msgid "Settings template not found."
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:597
+#: includes/admin/class-zeko-love-admin.php:602
 msgid ""
 "Share of each booking kept by the platform. Sellers receive the remainder."
 msgstr ""
@@ -2117,8 +2117,8 @@ msgstr ""
 msgid "Start time"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:301
-#: includes/admin/class-zeko-love-admin.php:632
+#: includes/admin/class-zeko-love-admin.php:306
+#: includes/admin/class-zeko-love-admin.php:637
 #: templates/dating-settings.php:189
 msgid "Status"
 msgstr ""
@@ -2127,17 +2127,17 @@ msgstr ""
 msgid "Submit review"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:623
+#: includes/admin/class-zeko-love-admin.php:628
 msgid "Subscription Plans"
 msgstr ""
 
 #: includes/public/class-zeko-love-ajax.php:869
-#: includes/public/class-zeko-love-public.php:431
-#: includes/public/class-zeko-love-public.php:612
+#: includes/public/class-zeko-love-public.php:432
+#: includes/public/class-zeko-love-public.php:613
 msgid "Super Like"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:490
+#: includes/admin/class-zeko-love-admin.php:495
 msgid "Super Like Price"
 msgstr ""
 
@@ -2216,12 +2216,12 @@ msgstr ""
 msgid "This match is no longer active."
 msgstr ""
 
-#: includes/public/class-zeko-love-public.php:449
-#: includes/public/class-zeko-love-public.php:454
+#: includes/public/class-zeko-love-public.php:450
+#: includes/public/class-zeko-love-public.php:455
 msgid "This profile is not available."
 msgstr ""
 
-#: templates/dating-settings.php:309
+#: templates/dating-settings.php:313
 msgid ""
 "This will permanently delete your dating profile and all associated data "
 "(matches, messages, photos)."
@@ -2244,7 +2244,7 @@ msgstr ""
 msgid "Too many requests. Please slow down."
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:573
+#: includes/admin/class-zeko-love-admin.php:578
 msgid "Total Listings"
 msgstr ""
 
@@ -2253,7 +2253,7 @@ msgid "Total Profiles"
 msgstr ""
 
 #: includes/admin/class-zeko-love-admin.php:211
-#: includes/admin/class-zeko-love-admin.php:407
+#: includes/admin/class-zeko-love-admin.php:412
 msgid "Total Reports"
 msgstr ""
 
@@ -2292,7 +2292,7 @@ msgstr ""
 msgid "Upcoming call reminder"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:693
+#: includes/admin/class-zeko-love-admin.php:698
 msgid "Update plan"
 msgstr ""
 
@@ -2300,7 +2300,7 @@ msgstr ""
 msgid "Upload error."
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:300
+#: includes/admin/class-zeko-love-admin.php:305
 msgid "User"
 msgstr ""
 
@@ -2324,11 +2324,11 @@ msgstr ""
 msgid "Verification codes are not available."
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:246
-#: includes/admin/class-zeko-love-admin.php:341
+#: includes/admin/class-zeko-love-admin.php:249
+#: includes/admin/class-zeko-love-admin.php:346
 #: includes/class-zeko-love-ecosystem.php:262
 #: includes/public/class-zeko-love-public.php:405
-#: includes/public/class-zeko-love-public.php:527
+#: includes/public/class-zeko-love-public.php:528
 msgid "Verified"
 msgstr ""
 
@@ -2340,7 +2340,7 @@ msgstr ""
 msgid "Verified Profiles"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:313
+#: includes/admin/class-zeko-love-admin.php:318
 msgid "Verify"
 msgstr ""
 
@@ -2414,11 +2414,11 @@ msgstr ""
 msgid "Wallet Address"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:493
+#: includes/admin/class-zeko-love-admin.php:498
 msgid "Wallet amount charged for a Super Like. Charges Zeko Pay wallets."
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:500
+#: includes/admin/class-zeko-love-admin.php:505
 msgid "Wallet amount charged to boost a profile."
 msgstr ""
 
@@ -2449,19 +2449,19 @@ msgstr ""
 msgid "Weekly availability"
 msgstr ""
 
-#: zeko-love.php:322
+#: zeko-love.php:325
 msgid "What is one thing on your bucket list this year?"
 msgstr ""
 
-#: zeko-love.php:326
+#: zeko-love.php:329
 msgid "What is the best meal you have ever had?"
 msgstr ""
 
-#: zeko-love.php:324
+#: zeko-love.php:327
 msgid "What is your favourite way to unwind after a long week?"
 msgstr ""
 
-#: zeko-love.php:327
+#: zeko-love.php:330
 msgid "What show are you currently obsessed with?"
 msgstr ""
 
@@ -2502,7 +2502,7 @@ msgstr ""
 msgid "Women"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:257
+#: includes/admin/class-zeko-love-admin.php:261
 #: templates/partials/profile-fields.php:39
 #: templates/partials/profile-fields.php:46
 msgid "Yes"
@@ -2712,7 +2712,7 @@ msgid ""
 "records."
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:568
+#: includes/admin/class-zeko-love-admin.php:573
 msgid "Zeko Love — Calls & Availability"
 msgstr ""
 
@@ -2728,7 +2728,7 @@ msgstr ""
 msgid "Zeko Love — Interests"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:295
+#: includes/admin/class-zeko-love-admin.php:300
 msgid "Zeko Love — Pending Photo Verification"
 msgstr ""
 
@@ -2736,15 +2736,15 @@ msgstr ""
 msgid "Zeko Love — Photos"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:239
+#: includes/admin/class-zeko-love-admin.php:242
 msgid "Zeko Love — Profiles"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:401
+#: includes/admin/class-zeko-love-admin.php:406
 msgid "Zeko Love — Reported Users"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:470
+#: includes/admin/class-zeko-love-admin.php:475
 msgid "Zeko Love — Settings"
 msgstr ""
 
@@ -2777,11 +2777,11 @@ msgstr ""
 msgid "min"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:361
+#: includes/admin/class-zeko-love-admin.php:366
 msgid "rejected"
 msgstr ""
 
-#: includes/admin/class-zeko-love-admin.php:340
+#: includes/admin/class-zeko-love-admin.php:345
 msgid "verified"
 msgstr ""
 
